@@ -1,0 +1,158 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: var(--grey-blue);
+}
+
+.content {
+    margin-bottom: 81px;
+}
+
+.stats {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-top: 57px;
+    border-radius: 10px;
+    color: var(--dark-blue);
+    justify-content: space-around;
+    align-items: center;
+    height: 47px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.stats img {
+    width: 24px;
+    height: 24px;
+}
+
+.stat {
+    display: flex;
+    flex-direction: row;
+}
+
+.points_nr {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.points {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.middle_line {
+    width: 1px;
+    height: 32px;
+    background-color: var(--dark-blue);
+}
+
+.stat_info {
+    padding: 0 5px;
+}
+
+.accuracy_nr {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.accuracy {
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.quiz_week {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 1px;
+    padding-bottom: 3px;
+    color: var(--dark-blue);
+}
+
+.quiz {
+    height: 114px;
+    background-color: var(--grey-blue);
+    color: var(--dark-blue);
+    border: solid 2px var(--light-blue);
+    border-radius: 10px;
+}
+
+.quiz img {
+    position: absolute;
+    left: 231px;
+    top: 160px;
+}
+
+.qw_title {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+
+.qw_plyrs {
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 16px;
+    padding-bottom: 17px; 
+}
+
+.quiz button {
+    margin-left: 16px;
+    color: var(--grey-blue);
+    background-color: var(--light-blue);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 25px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.category_title {
+    color: var(--dark-blue);
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    gap: 23px;
+}
+
+.column_1 {
+    padding-top: 16px;
+}
+
+.category {
+    height: 154px;
+    min-width: 150px;
+    max-width: 100%;
+    position: relative;
+    color: black;
+    margin-bottom: 21px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.category img {
+    width: 100px;
+    left: 14px;
+    bottom: 67px;
+    position: absolute;
+}
+
+.cat_title {
+    font-size: 14px;
+    font-weight: 800;
+    padding-top: 108px;
+    padding-left: 11px;
+}
+
+.cat_subjects {
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 11px;
+}

@@ -1,0 +1,194 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: var(--grey-blue);
+    padding-bottom: 81px;
+}
+
+.wlc_plyr {
+    font-size: 11px;
+    font-weight: 505;
+    color: var(--dark-blue);
+    padding-top: 62px;
+    padding-left: 34px;
+    padding-bottom: 4px;
+}
+
+.ls_go {
+    font-size: 23px;
+    font-weight: bold;
+    color: var(--dark-blue);
+    padding-left: 34px;
+    padding-bottom: 18px;
+}
+
+.streak {
+    color: var(--grey-blue);
+    background-color: var(--dark-blue);
+    height: 90px;
+    border-radius: 10px;
+}
+
+.streak img {
+    position: absolute;
+    left: 57%;
+    top: 45px;
+}
+
+.strk_txt {
+    padding-top: 12px;
+    padding-left: 16px;
+    padding-bottom: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.strk_motto {
+    padding-left: 16px;
+    font-size: 10px;
+    font-weight: 800;
+    opacity: 74%;
+    padding-bottom: 15px;
+}
+
+.prgs_bar {
+    background-color: var(--grey-blue);
+    height: 6px;
+    margin: 0 16px;
+    border-radius: 50px;
+}
+
+.quiz_week {
+    font-size: 12px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-left: 1px;
+    padding-bottom: 3px;
+    color: var(--dark-blue);
+}
+
+.quiz {
+    height: 114px;
+    background-color: var(--grey-blue);
+    color: var(--dark-blue);
+    border: solid 2px var(--light-blue);
+    border-radius: 10px;
+}
+
+.quiz img {
+    position: absolute;
+    left: 231px;
+    top: 265px;
+}
+
+.qw_title {
+    font-size: 20px;
+    font-weight: 800;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+
+.qw_plyrs {
+    font-size: 10px;
+    font-weight: 700;
+    padding-top: 3px;
+    padding-left: 16px;
+    padding-bottom: 17px; 
+}
+
+.quiz button {
+    margin-left: 16px;
+    color: var(--grey-blue);
+    background-color: var(--light-blue);
+    font-size: 13px;
+    font-weight: 700;
+    padding: 6px 25px;
+    border: 0;
+    border-radius: 6px;
+}
+
+.categorie_title {
+    color: var(--dark-blue);
+    font-size: 12px;
+    font-weight: 700;
+    padding-top: 21px;
+    padding-left: 1px;
+    padding-bottom: 4px;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.categories div {
+    border: solid 2px var(--light-blue);
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;            
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;  
+    text-align: center;
+}
+
+.categories p {
+    color: var(--dark-blue);
+    font-size: 10px;
+    font-weight: 700;
+    padding: 8px 0;
+}
+
+.progress {
+    margin-top: 26px;
+    background-color: var(--dark-blue);
+    border-radius: 10px;
+}
+
+.progress_title {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--grey-blue);
+    padding-top: 13px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+.progress_stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.prgs_stat {
+    background-color: rgba(255, 255, 255, 0.2);
+    height: 75px;
+    width: 90px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stat_title {
+    color: white;
+    font-size: 8px;
+    font-weight: 500;
+    padding: 5px 0;
+}
+
+.status {
+    color: var(--grey-blue);
+    font-size: 14px;
+    font-weight: 700;
+}
