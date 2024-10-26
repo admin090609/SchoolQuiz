@@ -117,11 +117,10 @@ body {
 }
 
 .categories {
-    display: flex;
-    flex-direction: row;
-    gap: 23px;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+    gap: 20px;
+    justify-content: center;
 }
 
 .column_1 {
@@ -130,19 +129,20 @@ body {
 
 .category {
     height: 154px;
-    min-width: 140px;
-    max-width: 100%;
-    position: relative;
+    min-width: 110px;
+    max-width: 150px;
+    width: 100%;
     color: black;
-    margin-bottom: 21px;
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    margin-bottom: 21px;
 }
 
 .category img {
     width: 100px;
-    left: 14px;
+    left: 9px;
     bottom: 67px;
     position: absolute;
 }
