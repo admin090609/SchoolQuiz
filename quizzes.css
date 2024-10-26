@@ -121,6 +121,7 @@ body {
     grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
     gap: 20px;
     justify-content: center;
+    padding-top: 10px;
 }
 
 .column_1 {
